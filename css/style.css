@@ -3,3 +3,53 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/*
+.hero {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.349)), url("../img/pexels-pixabay-207662.jpg");
+    background-repeat: repeat;
+    background-size: 200px 200px;
+} 
+*/
+
+
+nav img {
+    max-height: 100px;
+}
+
+.hero img, #info-users img {
+    max-height: 90%;
+    max-width: 70%;
+    border-radius: 2px;
+    object-fit: fill;
+    box-shadow: 10px 10px;
+}
+
+.para-leitores {
+    display: flex;
+    justify-content: end;
+    object-fit: fill;
+}
+
+
+.hero figure {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 0;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.navbar-brand img {
+    height: 100px;
+}
+
+#info-users .columns {
+    margin: 100px auto;
+}

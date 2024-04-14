@@ -1,13 +1,189 @@
 <!DOCTYPE html>
-<html lang="en" class="theme-light">
+<html lang="pt" class="theme-light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bulma.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/bulma.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/vivlio-icon.png" type="image/x-icon">
     <title>Vivlio</title>
 </head>
 <body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a href="index.html" class="navbar-it">
+                    <figure class="image">
+                        <img src="img/vivlio-navbar.png" alt="Vivlio logo" class="is-16x16">
+                    </figure>
+                </a>
+            </div>
+            <div class="navbar-menu">
+                <div class="navbar-end">
+                    <a href="#" class="navbar-item">Missão</a>
+
+                    <div class="navbar-item">
+                        <a href="#" class="button is-primary">Contacte-nos</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </nav>
+    
+    <section class="hero is-fullheight">
+        <div class="container">
+                <div class="columns">
+                    <div class="column hero-text">
+                        <p class="title is-size-1">Tenha todos os seus livros favoritos num só lugar</p>
+                        <p class="subtitle is-size-2">Leia onde quiser, quando quiser.</p>
+                        <p class="is-size-3">Descubra uma nova maneira de explorar a literatura angolana. Estamos aqui para oferecer-lhe acesso fácil e conveniente a uma vasta biblioteca de e-books.</p>
+                    </div>
+                    <div class="column">
+                        <figure class="image">
+                            <img src="img/hero.jpg" alt="Jovem a ler um livro">
+                        </figure>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <p class="title has-text-primary is-size-1">Missão</p>
+            <p class="is-size-3">No Vivlio, estamos comprometidos em ajudar na universalização do conhecimento ao abrir as portas para um mundo de descobertas literárias. Com uma vasta coleção de e-books, oferecemos acesso sem precedentes à riqueza da literatura angolana e internacional.</p>
+        </div>
+    </section>
+
+    <section id="info-users" class="section">
+        <div class="container">
+            <p class="title is-size-1">Conheça o Vivlio</p>
+            <div class="columns">
+                <div class="column">
+                    <p class="title is-size-2">Para Leitores</p>
+                    <br>
+
+                    <p class="subtitle is-size-3">Descubra Novos Mundos Literários</p>
+                    <p class="is-size-4">Explore uma vasta biblioteca de livros, cuidadosamente selecionados para oferecer uma experiência de leitura envolvente e diversificada. De romances a não-ficção, ficção científica a poesia, há algo para todos os gostos e interesses. Com o Vivlio, a leitura nunca foi tão acessível e emocionante.</p>
+                    <br>
+
+                    <p class="subtitle is-size-3">Junte-se à Comunidade Literária</p>
+                    <p class="is-size-4">Faça parte de uma comunidade vibrante de leitores apaixonados. Compartilhe suas opiniões sobre os livros que leu, participe de discussões, descubra novos autores e conecte-se com pessoas que compartilham sua paixão pela literatura. No Vivlio, a leitura é uma experiência social.</p>
+                </div>
+                <div class="column">
+                    <figure class="image para-leitores">
+                        <img src="img/para-leitores.jpg" alt="">
+                    </figure>
+                </div>
+            </div>
+
+            <div class="columns">
+                <div class="column">
+                    <figure class="image para-escritores">
+                        <img src="img/para-escritores.jpg" alt="">
+                    </figure>
+                </div>
+                <div class="column">
+                    <p class="title is-size-2">Para Autores</p>
+                    <br>
+
+                    <p class="subtitle is-size-3">Dê Vida às Suas Histórias</p>
+                    <p class="is-size-4">Publique suas obras e alcance uma audiência de leitores. No Vivlo, damos destaque aos escritores angolanos, oferecendo-lhes uma plataforma para compartilhar suas histórias e ganhar reconhecimento. Seja você um autor estabelecido ou um novato aspirante, há espaço para todos na nossa comunidade.</p>
+
+                    <br>
+
+                    <p class="subtitle is-size-3">Monetize o seu talento</p>
+                    <p class="is-size-4">Ganhe dinheiro com as suas obras. Receba uma percentagem das receitas geradas pelas assinaturas dos leitores. No Vivlo, reconhecemos e valorizamos o talento dos nossos escritores.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <p class="title is-size-1">Fale connosco</p>
+            <form action="#" method="post">
+                <div class="field is-horizontal">
+                    <div class="field-label is-normal">
+                        <label for="nome" class="label">Nome</label>
+                    </div>
+                    <div class="field-body">
+                        <div class="field">
+                            <p class="control is-expanded">
+                                <input type="text" class="input" placeholder="Primeiro nome">
+                            </p>
+                        </div>
+                        <div class="field">
+                            <p class="control is-expanded">
+                                <input type="text" class="input" placeholder="Último nome">
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="field is-horizontal">
+                    <div class="field-label">
+                        <label for="email" class="label">E-mail</label>
+                    </div>
+                    <div class="field-body">
+                        <div class="field is-expanded">
+                            <div class="control">
+                                <input type="email" name="email" id="email" class="input" placeholder="E-mail">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="field is-horizontal">
+                    <div class="field-label">
+                        <label for="mensagem" class="label">Mensagem</label>
+                    </div>
+                    <div class="field-body">
+                        <div class="field">
+                            <div class="control">
+                                <textarea name="" id="" cols="30" rows="10" class="textarea" placeholder="Escreva a sua mensagem"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="field is-horizontal">
+                    <div class="field-label"></div>
+                    <div class="field-body">
+                        <div class="field">
+                            <div class="control">
+                                <input type="submit" value="Enviar" class="button is-primary">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+
+            </form>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p><strong>Vivlio</strong>, 2024</p>
+            <p>Feito com
+                <span class="icon-text">
+                    <span class="icon">
+                        <i class="bx bxs-heart"></i>
+                    </span>
+                </span> por
+                <a href="https://github.com/sjcp7">Samuel</a>,
+                <a href="https://github.com/williamazevedo1610">William</a> e
+                <a href="https://github.com/WladVilela">Wladmir</a>
+            </p>
+        </div>
+    </footer>
     
 </body>
 </html>
